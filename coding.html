@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Isabel's Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/design.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <header>
+        <a href="index.html">
+            <h1 id="title">Isabel Datars</h1>
+        </a>
+        <nav>
+            <ul id="nav">
+                <li><a href="coding.html" class="current">Coding</a></li>
+                <li class="separator">|</li>
+                <li><a href="design.html">Art + Design</a></li>
+                <li class="separator">|</li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="body">
+        <h2>Coding</h2>
+        <h3>Web</h3>
+
+        <div>
+            <a href="https://master.d3fw3w8nrqeq7q.amplifyapp.com/">
+                <div class="codinggrid clickable" id="shoppies">
+                    <img src="img/shoppies.png">
+                    <div>
+                        <h4>Movie Award Nominations</h4>
+                        <p><span class="caption">React App, Rest APIs.</span> This web app uses the OMDB Rest API to
+                            create a simple way of nominating flims for an arbitrary awards show. It was originally made
+                            as a coding challenge for Shopify.<br>
+                            Made in React and deployed on AWS.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="http://ixd1593.firebird.sheridanc.on.ca/mcnugget_calculator/">
+                <div class="codinggrid clickable" id="chickenmcnugget">
+                    <img src="img/mcnugget.png">
+                    <div>
+                        <h4>The Chicken McNugget Problem</h4>
+                        <p><span class="caption">Generative recursion.</span> Inspired by the classic math proof <i>The
+                                Chicken McNugget Problem</i>, this program uses generative recursion to find the
+                            optimal combinations of McNugget packs for a given number.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="http://ixd1593.firebird.sheridanc.on.ca/rpn_calculator/">
+                <div class="codinggrid clickable" id="rpn">
+                    <img src="img/rpn.png">
+                    <div>
+                        <h4>RPN Calculator</h4>
+                        <p><span class="caption">Stacks and binary trees.</span> In this implementation of a Reverse
+                            Polish Notation calculator, stacks and binary trees are used to compute RPN expressions and
+                            convert them into their Infix notation counterparts.</p>
+                    </div>
+                </div>
+            </a>
+
+            <!--<div class="codingbox" id="covidiots">
+                    <img src="img/covidiots.jpg">
+                    <div><p>Covidiots<br>
+                        <span class="caption">'Mafia' style game using web sockets</span></p></div>
+                </div>!-->
+        </div>
+
+        <h3>C++</h3>
+        <div>
+            <a href="https://github.com/idatars/conwaysgame">
+                <div class="codingbox clickable" id="conways">
+                    <h4>Conway's Game of Life</h4>
+                    <p><span class="caption">I/O simulation with observer patterns.</span> This program is an
+                        implementation of Conway's Game of Life, the classic zero-player game.
+                        Originally done as part of an assignment, it uses observer patterns and simple I/O to
+                        continuously generate the next steps of the game.</p>
+                    </p>
+                </div>
+            </a>
+            <a href="https://github.com/idatars/flight-planner">
+                <div class="codingbox clickable" id="flightplanner">
+                    <h4>Flight Planner</h4>
+                    <p><span class="caption">Graphs and classic recursion.</span> This is a typical application of
+                        simple
+                        graph theory that generates all possible flight combinations between two places. It uses text
+                        I/O to read-in flight information and print pathways.</p>
+
+                </div>
+            </a>
+            <a href="https://github.com/idatars/watopoly-2">
+                <div class="codingbox clickable" id="watopoly">
+                    <h4>Watopoly</h4>
+                    <p><span class="caption">UWaterloo themed Monopoly, group project.</span> This is a multiplayer I/O
+                        game that is an implementation of a UWaterloo themed version of Monopoly.
+                        It was originally coded for a final project, alongside Vishal Chotara and Joe Zhang.
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Javascript goes after the page-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

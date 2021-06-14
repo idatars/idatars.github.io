@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Isabel's Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/design.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header>
+            <a href="index.html">
+                <h1 id="title">Isabel Datars</h1>
+            </a>
+            <nav>
+                <ul id="nav">
+                    <li><a href="coding.html">Coding</a></li>
+                    <li class="separator">|</li>
+                    <li><a href="design.html" class="current">Art + Design</a></li>
+                    <li class="separator">|</li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="body">
+            <h2>Art + Design</h2>
+            <div id="modal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+              
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="modalcontent">
+              
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+            </div>
+
+            <h3>Digital Art</h3>
+            <div class="artgrid">
+                <div class="column">
+                    <img src="img/nowherebutup.jpg" id="nowherebutup" alt="Nowhere But Up" class="clickable triggermodal">
+                    <img src="img/rocker.jpg" alt="Rocker" class="clickable triggermodal">
+                    <img src="img/thread.jpg" alt="Thread" class="clickable triggermodal">
+                </div>
+                <div class="column">
+                    <img src="img/selfportrait.jpg" alt="Self Portrait" class="clickable triggermodal">
+                    <img src="img/cowboybepop.jpg" alt="The Heroes of 1B" class="clickable triggermodal">
+                    <img src="img/unclear.jpg" alt="Unclear" class="clickable triggermodal">
+                </div>
+                <div class="column">
+                    <img src="img/mmiw.jpg" class="clickable triggermodal">
+                    <img src="img/collage.jpg" class="clickable triggermodal">
+                </div>
+            </div>
+
+            <h3>Best of Yearbook 2019</h3>
+            <div class="artgrid">
+                <div class="column">
+                    <img src="img/yearbook/cover.jpg" alt="Cover" class="clickable triggermodal">
+                    <img src="img/yearbook/modelun.jpg" alt="Spotlight on Model UN" class="clickable triggermodal">
+                </div>
+                <div class="column">
+                    <img src="img/yearbook/opening.jpg" alt="Opening Spread" class="clickable triggermodal">
+                    <img src="img/yearbook/band.jpg" alt="Band Pages" class="clickable triggermodal">
+                </div>
+                <div class="column">
+                    <img src="img/yearbook/studentlife.jpg" alt="Student Life Spread" class="clickable triggermodal">
+                    <img src="img/yearbook/athletics.jpg" alt="Athletics Spread" class="clickable triggermodal">
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
